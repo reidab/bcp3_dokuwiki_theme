@@ -15,6 +15,59 @@ body {
   color: __text__;
 }
 
+
+#header {
+  background: #750b0b url(http://2009.barcampportland.com/i/barcamp_mascot.png) no-repeat 20px 5px;
+  color :#fff;
+  position: relative;
+  height: 65px;
+  margin-top: -1.5em;
+}
+
+#header h1 a {
+  color: #fff;
+  display: block;
+  width: 129px;
+  height: 42px;
+  background: url(http://2009.barcampportland.com/i/barcamp_text.png) no-repeat;
+  overflow: hidden;
+  text-indent: -999px;
+  position: absolute;
+  top: 12px;
+  left: 170px;
+}
+
+#header ul {
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  right: 1em;
+  bottom: 0;
+}
+
+#header li {
+  list-style: none;
+  float: left;
+  margin-left: 1em;
+}
+
+#header li a {
+  display: block;
+  padding: .5em 1em;
+  color: #fff;
+  background: #9E0005;
+  -moz-border-radius-topleft: .5em;
+  -webkit-border-top-left-radius: .5em;
+  -moz-border-radius-topright: .5em;
+  -webkit-border-top-right-radius: .5em;
+  text-decoration: none;
+}
+
+#header li a.active {
+  background: #fff;
+  color: #222;
+}
+
 /* the document */
 div.dokuwiki div.page {
   text-align: justify;

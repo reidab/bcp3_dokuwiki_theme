@@ -39,23 +39,20 @@ if (!defined('DOKU_INC')) die();
 <div class="dokuwiki">
   <?php html_msgarea()?>
 
-  <div class="stylehead">
-
-    <div class="header">
-      <div class="pagename">
-        [[<?php tpl_link(wl($ID,'do=backlink'),tpl_pagetitle($ID,true),'title="'.$lang['btn_backlink'].'"')?>]]
+     <div id='header'>
+        <h1>
+          <a href='/'>BarCamp Portland 2009</a>
+        </h1>
+        <ul>
+          <li>
+            <a href='/'>Schedule</a>
+          </li>
+          <li>
+            <a class='active' href='/sessions'>Session Notes</a>
+          </li>
+        </ul>
       </div>
-      <div class="logo">
-        <?php tpl_link(wl(),$conf['title'],'name="dokuwiki__top" id="dokuwiki__top" accesskey="h" title="[ALT+H]"')?>
-      </div>
 
-      <div class="clearer"></div>
-    </div>
-
-    <?php /*old includehook*/ @include(dirname(__FILE__).'/header.html')?>
-
-
-  </div>
   <?php flush()?>
 
   <?php /*old includehook*/ @include(dirname(__FILE__).'/pageheader.html')?>

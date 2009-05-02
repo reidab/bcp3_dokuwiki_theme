@@ -132,12 +132,6 @@ if (!defined('DOKU_INC')) die();
   <div class="clearer">&nbsp;</div>
 
 
-
-</div>
-<div id="copy"><div id="copywrapper">
-	&copy;2008 Another cool website by <a href="http://80kv.com">80KV</a>
-</div></div>
-
 <div class="no"><?php /* provide DokuWiki housekeeping, required in all templates */ tpl_indexerWebBug()?></div>
 </body>
 </html>
